@@ -1,0 +1,52 @@
+<html>
+<style>
+
+</style>
+<head>
+<title> Products </title>
+<h1>Products</h1>
+<h2> Here's what we have for you !! </h2>
+
+
+<div class="container">
+  <div class="images">
+    <img src="samsung tv 2.jpg"
+  </div>
+  <div class="slideshow-buttons">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+  </div>
+  <p class="pick">choose size</p>
+  <div class="sizes">
+    <div class="size">20</div>
+    <div class="size">32</div>
+    <div class="size">35</div>
+    <div class="size">40</div>
+    <div class="size">50</div>
+    <div class="size">55</div>
+    <div class="size">65</div>
+    <div class="size">80</div>
+  </div>
+  <div class="product">
+    <p>Samsung Led's</p>
+    <h1>Best in class</h1>
+    <h2>Starting from $150</h2>
+    <p class="desc">Start your 4K journey today with the Q60A QLED 4K TV. This Samsung 65 inch TV lets you enter a world saturated with color and sharpened to refreshing clarity, all of it made possible through the power of Quantum Dot technology. You'll be able to enjoy a billion shades of color with 100% Color Volume on its quantum dot display,* along with an expanded range of brilliant color and contrast from Quantum HDR. And, you can see sharp details delivered by the warm and cool Dual LED backlights that adjust in real time. Whatever you enjoy on this 65 in TV, it’s automatically upgraded to 4K UHD with Quantum Processor 4K Lite.** Your Smart TV Powered by Tizen gives you access to your favorite apps and streaming services like Netflix, Prime Video and Google TV. It also connects to your smart home and SmartThings—all from your TV. And you can control them with the Samsung Smart TV remote, or even your voice. Bixby, Amazon Alexa and Google Assistant are already built in. The QN65Q60AAFXZA 65 inch smart TV 4K model measures 11.1 x 57.1 x 34.3 inches. With its sleek Air Slim design, this thin TV elevates any space. It includes a power cable, SolarCell remote controller, Samsung smart control and user manual. Complete your viewing experience with the Q Series sound bar for deep, immersive surround sound. *Upscales to 4K Resolution. Resulting picture may vary based on source content. **QLED televisions can produce 100% Color Volume in the DCI-P3 color space, the format for most cinema screens and HDR movies for television. *Q60A 32" Dual LED not available **QLED televisions can produce 100% Color Volume in the DCI-P3 color space, the format for most cinema screens and HDR movies for television. ***Background feature accuracy may vary based on TV location and is dependent on wall designs, patterns and/or colors. SmartThings app on a mobile device ****Feature availability will vary by mobile device. *****Tap View is available on Samsung Galaxy devices with Android OS 8.1 and higher. ******Samsung Symphony is compatible with 2020 and 2021 Samsung QLED.
+
+</p>
+    <div class="buttons">
+      <button class="add">Add to Cart</button>
+      <button class="like"><span>♥</span></button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>made by <a href="https://codepen.io/juliepark"> julie</a> ♡
+</footer>
+
+$(".size").on('click', function(){
+  $(this).toggleClass('focus').siblings().removeClass('focus');
+})
